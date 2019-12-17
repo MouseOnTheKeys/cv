@@ -1,0 +1,37 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://mouseonthekeys.github.io/vitae
+author: Nenad Bubalo
+
+# edit this section with your information
+# jekyller.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /vitae/
+title: Nenad Bubalo's Resume
+name: Nenad Bubalo
+email: nenad.bubalo@mail.com
+email_full: mailto:nenad.bubalo@mailcom
+website: Nenad Bubalo HomePage
+website_full: https://mouseonthekeys.github.io/
+github: MouseOnTheKeys
+#twitter: twitter
+xing: Nenad_Bubalo/cv
+tel: +381 63 101 7284
+tel_full: tel:+381631017284
+google_maps: 'https://goo.gl/maps/XvLnVDCx1JhVsVM67'
+address:
+  street: 60 Jurija Gagarina
+  postcode: 11070 Novi Beograd
+  city: Belgrade
+  country: Serbia
+#google_analytics: UA-69300817-1
+
+# needed for travis-ci build
+exclude: [vendor]
