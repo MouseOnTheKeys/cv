@@ -7,13 +7,13 @@ paginate: 5
 plugins: [jekyll-paginate]
 port: 4000
 safe: true
-url: http://mouseonthekeys.github.io/vitae
+url: http://mouseonthekeys.github.io/cv/
 author: Nenad Bubalo
 
 # edit this section with your information
 # jekyller.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
-baseurl: /vitae/
+baseurl: /cv/
 title: Nenad Bubalo's Resume
 name: Nenad Bubalo
 email: nenad.bubalo@mail.com
