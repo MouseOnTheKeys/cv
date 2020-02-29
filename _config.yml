@@ -23,8 +23,12 @@ website_full: https://mouseonthekeys.github.io/mouse/
 github: MouseOnTheKeys
 #twitter: twitter
 xing: Nenad_Bubalo/cv
-tel: +381 63 101 7284
-tel_full: tel:+381631017284
+tel: 
+  - +381 63 101 7284
+  - +40 163 854 1025
+tel_full: 
+  - tel:+381631017284
+  - tel:+401638541025
 google_maps: 'https://goo.gl/maps/XvLnVDCx1JhVsVM67'
 address:
   street: 60 Jurija Gagarina
