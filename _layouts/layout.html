@@ -1,69 +1,77 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>{{ site.title }}</title>
-    <meta name="description" content="{{ site.name }}'s Résumé">
-    <meta name="author" content="{{ site.name }} @{{ site.xing }}">
+    <meta name="description" content="{{ site.name }}'s Résumé" />
+    <meta name="author" content="{{ site.name }} @{{ site.xing }}" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
-    <link rel="stylesheet" href="{{ site.baseurl }}static/css/base.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}static/css/skeleton.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}static/css/layout.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}static/css/base.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}static/css/skeleton.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}static/css/layout.css" />
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
 
     <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="shortcut icon" href="{{ site.baseurl }}static/img/favicon.ico">
+    <link rel="shortcut icon" href="{{ site.baseurl }}static/img/favicon.ico" />
     <!-- <link rel="apple-touch-icon" href="static/img/me-icon-57.png"> -->
     <!-- <link rel="apple-touch-icon" sizes="72x72" href="static/img/me-icon-72.png"> -->
     <!-- <link rel="apple-touch-icon" sizes="114x114" href="static/img/me-icon-114.png"> -->
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header class="three columns">
-            <img src="{{ site.baseurl }}static/img/slika.png" class="me">
-            <h1>{{ site.name }}</h1>
-            <p>
-                <a href="{{ site.tel_full }}">{{ site.tel }}</a>
-            </p>
-            <p>
-                <a href="{{ site.tel_full1 }}">{{ site.tel1 }}</a>
-            </p>
-            <address>
-                <a href="{{ site.google_maps }}">
-                    {{ site.address.street }}<br />
-                    {{ site.address.postcode }}<br />
-                    {{ site.address.city }}<br />
-                    {{ site.address.country }}
-                </a>
-            </address>
-            <p>
-                <a href="{{ site.website_full }}">{{ site.website }}</a><br />
-            </p>
-            <p>
-                <a href="{{ site.email_full }}">{{ site.email }}</a><br />
-                <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> /
-                <a href="https://xing.com/profile/{{ site.xing }}"><i class="fa fa-xing"></i> Xing</a>
-            </p>
-        </header>
-        <div class="thirteen columns clearfix">
+      <header class="three columns">
+        <img src="{{ site.baseurl }}static/img/slika.png" class="me" />
+        <h1>{{ site.name }}</h1>
+        <p>
+          <a href="{{ site.tel_full }}">{{ site.tel }}</a>
+        </p>
+        <p>
+          <a href="{{ site.tel_full1 }}">{{ site.tel1 }}</a>
+        </p>
+        <address>
+          <a href="{{ site.google_maps }}">
+            {{ site.address.street }}<br />
+            {{ site.address.postcode }}<br />
+            {{ site.address.city }}<br />
+            {{ site.address.country }}
+          </a>
+        </address>
+        <p><a href="{{ site.website_full }}">{{ site.website }}</a><br /></p>
+        <p>
+          <a href="{{ site.email_full }}">{{ site.email }}</a><br />
+          <a href="https://github.com/{{ site.github }}"
+            ><i class="fa fa-github"></i> Github</a
+          >
+          /
+          <a href="https://xing.com/profile/{{ site.xing }}"
+            ><i class="fa fa-xing"></i> Xing</a
+          >
+        </p>
+      </header>
+      <div class="thirteen columns clearfix">
+        {{ content }}
 
-            {{ content }}
-
-            <footer class="thirteen columns">
-                <p>Nenad Bubalo 2019 © All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> and
-                    <a href="https://github.com/MouseOnTheKeys">MouseOnTheKeys</a></p>
-            </footer>
-        </div>
+        <footer class="thirteen columns">
+          <p>
+            Nenad Bubalo 2019-2020 © All rights reserved. Powered by
+            <a href="http://jekyllrb.com/">Jekyll</a> and
+            <a href="https://github.com/MouseOnTheKeys">MouseOnTheKeys</a>
+          </p>
+        </footer>
+      </div>
     </div>
- -->
-
-</body>
-
+    -->
+  </body>
 </html>
