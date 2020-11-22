@@ -2,7 +2,10 @@
 <html>
 <script src="https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js"></script>
 <script>
-L2Dwidget.init();
+L2Dwidget.init({
+  model: {
+    jsonPath: 'https://unpkg.com/live2d-widget-model-shizuku@latest/assets/shizuku.model.json'},
+););
 </script>
   <head>
     <meta charset="utf-8" />
