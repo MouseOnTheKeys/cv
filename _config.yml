@@ -19,7 +19,7 @@ live2d:
   tagMode: false
   log: false
   model:
-    use: hijiki
+    use: live2d-widget-model-hijiki
   display:
     position: left
     width: 150
