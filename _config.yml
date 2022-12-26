@@ -43,15 +43,15 @@ github: MouseOnTheKeys
 #twitter: twitter
 xing: Nenad_Bubalo/cv
 tel: +381 63 101 7284
-tel1: +49 163 854 1025
+tel1: +49 152 035 35 255
 tel_full: tel:+381631017284
-tel_full1: tel:+491638541025
-google_maps: 'https://goo.gl/maps/XvLnVDCx1JhVsVM67'
+tel_full1: tel:+4915203535255
+google_maps: 'https://goo.gl/maps/461ZjzzDJpXLvkaE6'
 address:
-  street: 60 Jurija Gagarina
-  postcode: 11070 Novi Beograd
-  city: Belgrade
-  country: Serbia
+  street: 72 Sickingenstraße
+  postcode: 10553 Berlin
+  city: Berlin
+  country: Germany
 #google_analytics: UA-69300817-1
 
 # needed for travis-ci build
