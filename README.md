@@ -1,4 +1,4 @@
-## Copyright & License
+## Copyright & License 2023
 
 Copyright (C) 2015 - Released under the MIT License.
 
