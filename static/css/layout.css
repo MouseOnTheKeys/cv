@@ -1,13 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:700,400);
 
 body {
-    background-color: #f0f2f5;
+    background-color: #111;
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 21px;
     color: rgb(48, 48, 48);
-    border-top: 5px solid #2d4a7a;
-    border-bottom: 5px solid #2d4a7a;
+    border-top: 5px solid #7a00cc;
+    border-bottom: 5px solid #7a00cc;
 }
 
 .container {
@@ -27,7 +32,7 @@ a:visited {
 }
 
 a:hover, a:focus {
-    color: #2d4a7a;
+    color: #7a00cc;
 }
 
 p, address {
@@ -44,14 +49,14 @@ p, address {
 }
 
 .container > header {
-    background: #f0f4f8;
+    background: #f5eefa;
     padding: 20px 15px;
     border-radius: 4px;
     box-sizing: border-box;
 }
 
 header > h1, section > h1 {
-    color: #2d4a7a;
+    color: #7a00cc;
 }
 
 header > h1 {
@@ -79,7 +84,7 @@ section > h1 {
 }
 
 article {
-    border-left: 3px solid #2d4a7a;
+    border-left: 3px solid #7a00cc;
     padding-left: 14px;
     margin-bottom: 24px;
 }
@@ -135,8 +140,8 @@ em {
 
 .tech-tag {
     display: inline-block;
-    background: #e8eef5;
-    color: #2d4a7a;
+    background: #f0e6fa;
+    color: #7a00cc;
     border-radius: 3px;
     padding: 2px 8px;
     font-size: 11px;
