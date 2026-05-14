@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /
+Disallow:
+
+Sitemap: https://mouseonthekeys.github.io/cv/sitemap.xml
