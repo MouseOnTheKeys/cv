@@ -40,7 +40,7 @@ email_full: mailto:nenad.bubalo@mail.com
 website: Nenad Bubalo HomePage
 website_full: https://mouseonthekeys.github.io/mouse/
 github: MouseOnTheKeys
-#twitter: twitter
+linkedin: nenad-bubalo
 xing: Nenad_Bubalo/cv
 tel: +381 63 101 7284
 tel1: +49 152 035 35 255
@@ -48,8 +48,7 @@ tel_full: tel:+381631017284
 tel_full1: tel:+4915203535255
 google_maps: 'https://goo.gl/maps/461ZjzzDJpXLvkaE6'
 address:
-  street: 72 Sickingenstraße
-  postcode: 10553 Berlin
+  postcode: 12439 Berlin
   city: Berlin
   country: Germany
 #google_analytics: UA-69300817-1
